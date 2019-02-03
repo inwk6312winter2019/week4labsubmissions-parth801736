@@ -20,4 +20,3 @@ def findfile(extension):
 
 x = input("enter file extension for Search:")
 findfile(x)
-
