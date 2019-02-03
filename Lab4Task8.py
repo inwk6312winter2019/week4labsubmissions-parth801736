@@ -16,7 +16,5 @@ def findfile(extension):
             if item.endswith("."+ str(extension)):
                 fileNamePath = str(os.path.join(root,item))
                 print(fileNamePath," ",md5(fileNamePath))
-
-
 x = input("enter file extension for Search:")
 findfile(x)
